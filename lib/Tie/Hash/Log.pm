@@ -51,7 +51,7 @@ sub FIRSTKEY {
     my ($this) = @_;
     my $dummy = keys %{$this}; # reset iterator
     my $res = each %$this;
-    log_trace "FIRSTKEY(%s): %s", $key, $res;
+    log_trace "FIRSTKEY): %s", $res;
     $res;
 }
 
