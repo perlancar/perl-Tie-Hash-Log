@@ -96,7 +96,7 @@ sub UNTIE {
 
 This class implements tie interface for hash but performs regular hash
 operations, except logging the operation with L<Log::ger>. It's basically used
-for testing or benchmarking.
+for testing, benchmarking, or documentation only.
 
 
 =head1 SEE ALSO
@@ -104,5 +104,11 @@ for testing or benchmarking.
 L<perltie>
 
 L<Log::ger>
+
+L<Tie::Array::Log>, L<Tie::Hash::Log>, L<Tie::Handle::Log>.
+
+L<Tie::Hash>, L<Tie::StdHash>, L<Tie::ExtraHash>
+
+L<Tie::Simple>
 
 =cut
